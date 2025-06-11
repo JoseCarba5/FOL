@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soft Skills en Empresas de Informática</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+      }
+
+      header {
+        text-align: center;
+        padding-bottom: 20px;
+      }
+
+      h1 {
+        color: #2c3e50;
+      }
+
+      h2 {
+        text-align: center;
+        margin-top: 50px;
+        color: #34495e;
+      }
+
+      p {
+        max-width: 800px;
+        margin: 0 auto 30px;
+        font-size: 1.2em;
+        line-height: 1.5;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+      }
+
+      .skill-card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 15px;
+        padding: 20px;
+        width: 250px;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+
+      .skill-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+
+      .skill-title {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+        color: #2980b9;
+      }
+
+      /* Estilo para la sección DAFO */
+      .dafo-container {
+        max-width: 1000px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .dafo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+
+      .dafo-column {
+        background-color: #ecf0f1;
+        padding: 15px;
+        border-radius: 8px;
+      }
+
+      .dafo-column h3 {
+        text-align: center;
+        margin-bottom: 15px;
+        color: #2c3e50;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 0.9em;
+        color: #777;
+      }
+
+      /* Nuevos estilos para la parte de horarios */
+      #horarios-section {
+        max-width: 800px;
+        margin: 50px auto;
+      }
+
+      #horarios-form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      #horarios-form input {
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        font-size: 1em;
+      }
+
+      #horarios-form button {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        background-color: #2980b9;
+        color: #fff;
+        font-size: 1em;
+        cursor: pointer;
+      }
+
+      #horarios-form button:hover {
+        background-color: #3498db;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid #ccc;
+      }
+
+      th,
+      td {
+        padding: 8px;
+        text-align: center;
+      }
+
+      #resumen {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Soft Skills más importantes en Empresas de Informática</h1>
+    </header>
+    <div class="skills">
+      <div class="skill-card">
+        <div class="skill-title">Comunicación</div>
+        <p>
+          Facilidad para expresar ideas claramente y escuchar a los demás,
+          esencial en equipos de trabajo y con clientes.
+        </p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-title">Trabajo en equipo</div>
+        <p>
+          Colaborar efectivamente con otros, sharing conocimientos y soportando
+          responsabilidades comunes.
+        </p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-title">Pensamiento crítico</div>
+        <p>
+          Analizar problemas de manera lógica y buscar soluciones innovadoras y
+          eficientes.
+        </p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-title">Adaptabilidad</div>
+        <p>
+          Capacidad para ajustarse a cambios tecnológicos y de proyectos de
+          manera rápida y efectiva.
+        </p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-title">Proactividad</div>
+        <p>
+          Anticiparse a problemas y tomar la iniciativa sin que se lo indiquen
+          constantemente.
+        </p>
+      </div>
+    </div>
+
+    <h2>Análisis DAFO</h2>
+    <div class="dafo-container">
+      <div class="dafo-grid">
+        <div class="dafo-column">
+          <h3>Fortalezas</h3>
+          <ul>
+            <li>Conocimientos en HTML, CSS, JavaScript</li>
+            <li>Motivación y entusiasmo</li>
+            <li>Buenas habilidades de comunicación</li>
+            <li>Capacidad para aprender rápido</li>
+          </ul>
+        </div>
+        <div class="dafo-column">
+          <h3>Debilidades</h3>
+          <ul>
+            <li>Limitada experiencia práctica</li>
+            <li>Poco conocimiento en gestión de proyectos reales</li>
+            <li>Gestión del tiempo por mejorar</li>
+            <li>Dificultad en tareas muy específicas sin ayuda</li>
+          </ul>
+        </div>
+        <div class="dafo-column">
+          <h3>Oportunidades</h3>
+          <ul>
+            <li>Tecnologías y herramientas del mercado</li>
+            <li>Contacto con profesionales y mentores</li>
+            <li>Posibilidad de futuras ofertas laborales</li>
+            <li>Participar en proyectos innovadores</li>
+          </ul>
+        </div>
+        <div class="dafo-column">
+          <h3>Amenazas</h3>
+          <ul>
+            <li>Alta competencia en el sector</li>
+            <li>Cambio rápido en tecnologías</li>
+            <li>Dificultad para encontrar prácticas</li>
+            <li>Incertidumbre económica mundial</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="horarios-section">
+      <h2>Registro de Horarios de Trabajadores</h2>
+      <div id="horarios-form">
+        <input type="text" id="nombre" placeholder="Nombre" />
+        <input type="time" id="horaEntrada" placeholder="Hora Entrada" />
+        <input type="time" id="horaSalida" placeholder="Hora Salida" />
+        <button onclick="agregarEmpleado()">Agregar</button>
+      </div>
+      <table id="tablaHorario">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Hora Entrada</th>
+            <th>Hora Salida</th>
+            <th>Horas Trabajadas</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div id="resumen">
+        Total horas de todos los empleados: <span id="totalHoras">0</span>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2025 Tu Empresa de Informática. Todos los derechos reservados.
+    </footer>
+
+    <script>
+      function agregarEmpleado() {
+        const nombre = document.getElementById("nombre").value.trim();
+        const entradaStr = document.getElementById("horaEntrada").value;
+        const salidaStr = document.getElementById("horaSalida").value;
+
+        if (!nombre || !entradaStr || !salidaStr) {
+          alert("Por favor, complete todos los campos.");
+          return;
+        }
+
+        const entrada = new Date(`1970-01-01T${entradaStr}:00`);
+        const salida = new Date(`1970-01-01T${salidaStr}:00`);
+
+        if (salida <= entrada) {
+          alert("La hora de salida debe ser mayor que la de entrada.");
+          return;
+        }
+
+        // Calcular diferencia en horas
+        const diffMs = salida - entrada;
+        const horasTrabajadas = diffMs / (1000 * 60 * 60); // ms a horas
+
+        const tbody = document.querySelector("#tablaHorario tbody");
+        const fila = document.createElement("tr");
+        fila.innerHTML = `
+          <td>${nombre}</td>
+          <td>${entradaStr}</td>
+          <td>${salidaStr}</td>
+          <td class="horasTrabajadas" data-horas="${horasTrabajadas}">${horasTrabajadas.toFixed(
+          2
+        )}</td>
+        `;
+        tbody.appendChild(fila);
+
+        actualizarTotal();
+
+        document.getElementById("nombre").value = "";
+        document.getElementById("horaEntrada").value = "";
+        document.getElementById("horaSalida").value = "";
+      }
+
+      function actualizarTotal() {
+        const valores = document.querySelectorAll(".horasTrabajadas");
+        let suma = 0;
+        valores.forEach((td) => {
+          suma += parseFloat(td.dataset.horas);
+        });
+        document.getElementById("totalHoras").innerText = suma.toFixed(2);
+      }
+    </script>
+  </body>
+</html>
